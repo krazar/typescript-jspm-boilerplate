@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "browser-sync start --server --files \"src/*.ts, *.html\""
+  },
+  "jspm": {
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "ts": "github:frankwallis/plugin-typescript@^4.0.2"
+    },
+    "devDependencies": {
+      "ts-runtime": "npm:babel-runtime@^5.8.24",
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}

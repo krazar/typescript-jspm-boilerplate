@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
     "target": "es5"
-  },
-  "files": [
-    "./main.ts"
-  ]
+  }
 }
